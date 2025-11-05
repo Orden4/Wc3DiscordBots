@@ -18,14 +18,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageReference Include="TrieNet.Core" Version="1.0.4" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(UsePackageReferences)' != 'true'">
-    <ProjectReference Include="..\..\WCSharp.IO.JassDoc\WCSharp.IO.JassDoc\WCSharp.IO.JassDoc.csproj" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(UsePackageReferences)' == 'true'">
-    <PackageReference Include="WCSharp.Api" Version="8.0.2" />
+    <PackageReference Include="WCSharp.IO.JassDoc" Version="8.0.3" />
   </ItemGroup>
 
   <ItemGroup>

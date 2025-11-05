@@ -1,4 +1,5 @@
-﻿using Discord;
+﻿using System.Reflection;
+using Discord;
 using Discord.Interactions;
 using Discord.Rest;
 using Discord.WebSocket;
@@ -16,17 +17,11 @@ namespace JassBot
 	{
 		private static async Task Main()
 		{
-			while (true)
-			{
-				await RunApp();
-			}
-		}
+			Environment.CurrentDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
 
-		private static async Task RunApp()
-		{
 			var appBuilder = Host.CreateApplicationBuilder();
 
-			appBuilder.Configuration.SetBasePath(Directory.GetCurrentDirectory())
+			appBuilder.Configuration
 				.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
 				.AddUserSecrets<Program>();
 
