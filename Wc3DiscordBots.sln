@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.36129.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JassBot", "JassBot\JassBot.csproj", "{46A7A028-CC94-45BE-B780-7A3B0D7EB689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCSharp.IO.JassDoc", "..\WCSharp.IO.JassDoc\WCSharp.IO.JassDoc\WCSharp.IO.JassDoc.csproj", "{8AAF5CD7-80C9-4DB7-8034-7462507EC776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A7A028-CC94-45BE-B780-7A3B0D7EB689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A7A028-CC94-45BE-B780-7A3B0D7EB689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A7A028-CC94-45BE-B780-7A3B0D7EB689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A7A028-CC94-45BE-B780-7A3B0D7EB689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAF5CD7-80C9-4DB7-8034-7462507EC776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAF5CD7-80C9-4DB7-8034-7462507EC776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAF5CD7-80C9-4DB7-8034-7462507EC776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAF5CD7-80C9-4DB7-8034-7462507EC776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F7438B2-7E1B-4A2A-9D95-549831E1B0D8}
+	EndGlobalSection
+EndGlobal
